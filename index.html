@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="UTF-8">
+<title>Joker No Joke</title>
+<link type="text/css" rel="stylesheet" href="css/global.css" />
+<link type="text/css" rel="stylesheet" href="css/navigation-top.css" />
+<link type="text/css" rel="stylesheet" href="css/header.css" />
+<link type="text/css" rel="stylesheet" href="css/navigation.css" />
+<link type="text/css" rel="stylesheet" href="css/main.css" />
+<link type="text/css" rel="stylesheet" href="css/footer.css" />
+<style type="text/css">
+body {
+	background-image: url(images/Luffy.jpg);
+	background-size: contain;
+}
+</style>
+<script type="text/javascript">
+	window.onload = function() {
+		var iframe = document.getElementsByTagName("iframe");
+		function setHeight(iframe) {
+			iframe.height = document.documentElement.clientHeight;
+		}
+		iframe[0].onload = setHeight(iframe[0]);
+		iframe[1].onload = setHeight(iframe[1]);
+	}
+</script>
+</head>
+
+<body>
+	<div id="navigation-top">
+		<span>Welcome to my world</span>
+	</div>
+	<div id="header">
+		<span>Joker No Joke</span>
+	</div>
+	<div id="navigation">
+		<a href="info.html" target="main-left">Home</a> | <a
+			href="http://www.baidu.com" target="main-left">Else</a>
+	</div>
+	<div id="main">
+		<iframe id="main-left" src="info.html" frameborder="0" scrolling="no" name="main-left"></iframe>
+		<iframe id="main-right" src="info2.html" frameborder="0" scrolling="no" name="main-right"></iframe>
+	</div>
+	<div id="footer">
+		<span>2018-6-6 Joker No Joke</span>
+	</div>
+</body>
+
+</html>

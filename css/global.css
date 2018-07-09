@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+body {
+	width: 1166px;
+	margin: auto;
+	background-color: black;
+	line-height: 36px;
+	font-size: 16px;
+	color: white;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}

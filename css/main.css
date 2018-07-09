@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+iframe {
+	float: left;
+}
+
+#main {
+	overflow: hidden;
+	border-top: 1px solid gray;
+	border-bottom: 1px solid gray;
+}
+
+#main-left {
+	width: 888px;
+}
+
+#main-right {
+	width: 277px;
+	border-left: 1px solid gray;
+}
